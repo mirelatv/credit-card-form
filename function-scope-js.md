@@ -57,6 +57,9 @@ function isValidCreditCard(numberCard) {
           arr[index] = arr[index] - 9;
         }    
        }
+
+
+       
 ** SCOPE  ALCANCE LOCAL   
 
 - EN EL DOCUMENT.READY
