@@ -12,7 +12,7 @@ $(document).ready(function() {}
   var labelErrorOrSuccessMessages = $('label[for="card-number"]');
 
 
-** FUNCION DE CALLBACK
+** FUNCION EN COLA DE EVENTOS
 
 $inputCard.on('input', function() {
     isValidCreditCard($(this).val().trim());
@@ -59,8 +59,7 @@ function isValidCreditCard(numberCard) {
        }
 
 
-       
-** SCOPE  ALCANCE LOCAL   
+** SCOPE DE ALCANCE LOCAL   
 
 - EN EL DOCUMENT.READY
  
